@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.animate-gradient {
+  background-size: 200% 200%;
+}
+.animate-gradient-text {
+  background-size: 300% 300%;
+  animation: gradientShift 6s ease infinite;
+}
